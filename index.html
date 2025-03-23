@@ -1,0 +1,39 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    …
+</head>
+
+
+<body>
+    <div class="container">
+      <div class="recommendation-card">
+        <div class="card-icons">
+          <span class="popcorn-icon">🍿</span>
+          <span class="film-icon">🎬</span>
+        </div>
+        <h2>Movie Recommendations</h2>
+        <button class="start-button" onclick="startRecommendations()">START</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <div id="movie-screen" class="container hidden">
+      <div class="split-layout">
+        <div class="red-panel">
+          <div class="recommendation-card">
+            <div class="card-icons">
+              <span class="popcorn-icon">🍿</span>
+              <span class="film-icon">🎬</span>
+            </div>
+            <h2>Movie Recommendations</h2>
+            <div class="button-container">
+              <button class="nav-button prev-button" onclick="showPreviousMovie()">Prev</button>
+              <button class="nav-button next-button" onclick="showNextMovie()">NEXT</button>
+            </div>
+          </div>
+        </div>
+        <div class="poster-panel">
+          <img id="movie-poster" src="" alt="Movie poster">
+        </div>
+      </div>
+    </div>
+  </body>

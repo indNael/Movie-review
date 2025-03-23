@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ff4d4d;
+}
+
+.recommendation-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 250px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-icons {
+  position: relative;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.popcorn-icon {
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  font-size: 40px;
+}
+
+.film-icon {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  font-size: 30px;
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.start-button {
+  background-color: #ff4d4d;
+  color: black;
+  border: none;
+  padding: 8px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: background-color 0.2s;
+}
+
+.start-button:hover {
+  background-color: #ff3333;
+}
+
+.start-button:active {
+  transform: scale(0.98);
+}
